@@ -4,7 +4,7 @@ from googletrans import Translator
 from api import taom_qaytar
 logging.basicConfig(level=logging.INFO)
 
-bot=Bot(token="6149698150:AAGAqjPJxZDOh-c-aXKT-_0YMQGjCkydt-c")
+bot=Bot(token="Bot token yozing")
 dp=Dispatcher(bot)
 
 @dp.message_handler(commands="start")
